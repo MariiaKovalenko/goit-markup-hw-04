@@ -297,7 +297,7 @@ a {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    fill: var(--color-icons);
+    color: var(--color-icons);
     margin: 0;
     cursor: pointer;
 }
@@ -308,8 +308,12 @@ a {
 
 .socials-links:hover,
 .socials-links:focus {
-    fill: var(--primary-white-color);
+    color: var(--primary-white-color);
     background-color: var(--accent-color);
+}
+
+.socials-lists .icons {
+    fill: currentColor;
 }
 
 
@@ -371,7 +375,7 @@ a {
     align-items: center;
     width: 170px;
     height: 90px;
-    fill: var(--color-icons);
+    color: var(--color-icons);
     border: 1px solid var(--border-clients);
     border-radius: 4px;
     cursor: pointer;
@@ -379,11 +383,14 @@ a {
 
 .client-link:hover, 
 .client-link:focus {
-    fill: var(--accent-color);
+    color: var(--accent-color);
     border-color: var(--accent-color);
 
 }
 
+.client-list .icon {
+    fill: currentColor;
+}
 
 /* Footer */
 .page-footer {
@@ -458,7 +465,7 @@ a {
     height: 44px;
     border-radius: 50%;
     background-color: var(--bg-icons);
-    fill: currentColor;
+    color: var(--primary-white-color);
     margin: 0;
     cursor: pointer;
 }
@@ -470,6 +477,10 @@ a {
 .social-list .link:hover,
 .social-list .link:focus {
     background-color: var(--accent-color);
+}
+
+.social-list .icon {
+    fill: currentColor;
 }
 
 /* Фильтер работ */
